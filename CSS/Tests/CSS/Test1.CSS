@@ -1,0 +1,34 @@
+body {
+    background-color: lightgreen;
+}
+article {
+    border: 2px double rgb(255, 0, 0);
+}
+article p {
+    border: 2px solid rgb(0, 0, 0);
+}
+section, header, footer {
+    border: 2px dotted blue;
+}
+a:hover {
+    color: brown;
+}
+.col-3 > article {
+    float: left;
+    width: 30%;
+}
+section.col-3:after {
+    content: "";
+    display: block;
+    clear: both;
+    border: 5px solid rgb(148, 24, 148);
+}
+section.col-3 {
+    border: 10px solid yellow;
+}
+#liens_3 {
+    color: black;
+}
+img { 
+    max-width: 100%;
+}

@@ -1,0 +1,136 @@
+body {
+    background-color: #6C757D;
+  }
+  /**
+   Solution pour faire en sorte que le nav n'est pas vide.
+   L'astuce consiste en la création d'un élément (via :after)
+   qui est dans le nav et qui se positionne sous les éléments
+   flottants grâce aux proprités content et clear.
+  */
+  
+  header nav:after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+  header nav div {
+    text-decoration: none;
+    color: black;
+    background-color: #FFC107;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    font-family: arial;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 130px;
+  }
+  header nav div:hover {
+    background-color: black;
+    color: white;
+  }
+  header nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* Ajoute un élément comme dernier fils de main */
+  main:after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+  main section {
+    float: left;
+    width: 25%;
+  }
+  main section > div {
+     padding: 2em;
+     margin: 1em;
+     background-color: #fff;
+     border-radius: 8px;
+  }
+  main section > div > h2 {
+    margin: 0px 0 20px 0;/* haut droit bas gauche */
+  }
+  
+  /* Média queries ********************************/
+  /* Entre 992 et 1200px */
+  @media screen and (min-width:992px) and (max-width:1200px) {
+    main section {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width:992px) {
+    main section {
+      width: 100%;
+    }
+  }
+  
+  
+  body {
+    background-color: #6C757D;
+  }
+  /**
+   Solution pour faire en sorte que le nav n'est pas vide.
+   L'astuce consiste en la création d'un élément (via :after)
+   qui est dans le nav et qui se positionne sous les éléments
+   flottants grâce aux proprités content et clear.
+  */
+  
+  header nav:after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+  header nav div {
+    text-decoration: none;
+    color: black;
+    background-color: #FFC107;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    font-family: arial;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 130px;
+  }
+  header nav div:hover {
+    background-color: black;
+    color: white;
+  }
+  header nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* Ajoute un élément comme dernier fils de main */
+  main:after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+  main section {
+    float: left;
+    width: 25%;
+  }
+  main section > div {
+     padding: 2em;
+     margin: 1em;
+     background-color: #fff;
+     border-radius: 8px;
+  }
+  main section > div > h2 {
+    margin: 0px 0 20px 0;/* haut droit bas gauche */
+  }
+  
+  /* Média queries ********************************/
+  /* Entre 992 et 1200px */
+  @media screen and (min-width:992px) and (max-width:1200px) {
+    main section {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width:992px) {
+    main section {
+      width: 100%;
+    }
+  }

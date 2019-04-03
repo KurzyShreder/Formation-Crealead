@@ -1,0 +1,60 @@
+body {
+    background-color: grey
+}
+header nav button {
+    background-color: orange;
+    border: none;
+    border-radius: 5%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.menu_memo {
+    text-align: center;
+}
+#memu_memo_principal {
+    max-width: 200px;
+}
+header nav button:hover{
+    background-color: rgb(163, 90, 0);
+}
+#disconnect {
+    color: white;
+    position: absolute;
+    top: 1%;
+    right: 10%;
+}
+#more_table {
+    color: white;
+}
+main section {
+    background-color: white;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 1em;
+    width: 19%;
+    float: left;
+}
+.learning p {
+    border: 1px solid orange;
+    padding: 2em;
+    margin: 2em;
+}
+main section button{
+    background-color: green;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;  
+    color: white;
+    padding: 1em;
+    margin: 1em; 
+}
